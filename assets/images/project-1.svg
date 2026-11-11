@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18191E" />
+      <stop offset="100%" stop-color="#121316" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#p1Grad)" />
+  <g stroke="#26282E" stroke-width="1">
+    <line x1="30" y1="30" x2="570" y2="30" />
+    <line x1="30" y1="350" x2="570" y2="350" />
+    <line x1="30" y1="30" x2="30" y2="350" />
+    <line x1="570" y1="30" x2="570" y2="350" />
+  </g>
+  <!-- Abstract Digital Growth Waves & Pillars -->
+  <path d="M70,270 C140,240 180,280 240,200 C300,120 360,220 420,150 C480,80 510,130 530,110" fill="none" stroke="#D4FF32" stroke-width="3" />
+  <circle cx="240" cy="200" r="5" fill="#FF5C47" />
+  <circle cx="420" cy="150" r="5" fill="#FF5C47" />
+  <circle cx="530" cy="110" r="6" fill="#D4FF32" />
+  <text x="300" y="300" font-family="'Syne', sans-serif" font-size="20" font-weight="700" fill="#F8F6F0" text-anchor="middle" letter-spacing="1">DIGITAL MARKETING STRATEGY</text>
+  <text x="300" y="325" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#8E929E" text-anchor="middle" letter-spacing="2">CAMPAIGN ARCHITECTURE &amp; AUDIENCE REACH</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1C22" />
+      <stop offset="100%" stop-color="#121316" />
+    </linearGradient>
+    <pattern id="gridPattern" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#262A33" stroke-width="0.8" opacity="0.6"/>
+    </pattern>
+  </defs>
+  <rect width="700" height="450" fill="url(#mbGrad)" rx="12" />
+  <rect width="700" height="450" fill="url(#gridPattern)" rx="12" />
+  <rect x="25" y="25" width="650" height="400" fill="none" stroke="#FF5C47" stroke-width="1.5" stroke-dasharray="6 6" rx="8" opacity="0.5" />
+  
+  <!-- Icon & Graphic -->
+  <g transform="translate(350, 180)">
+    <circle cx="0" cy="0" r="55" fill="#181A20" stroke="#D4FF32" stroke-width="2" />
+    <path d="M-20,-15 L0,-35 L20,-15 L12,-15 L12,20 L-12,20 L-12,-15 Z" fill="#D4FF32" opacity="0.9" transform="rotate(45)" />
+    <!-- Megaphone / Social Broadcast Symbol -->
+    <path d="M-15,-10 L5,-20 L5,20 L-15,10 Z M5,-6 L18,-6 L18,6 L5,6 Z" fill="none" stroke="#F8F6F0" stroke-width="2.5" stroke-linejoin="round" />
+  </g>
+  
+  <text x="350" y="280" font-family="'Syne', 'Playfair Display', sans-serif" font-size="22" font-weight="700" fill="#F8F6F0" text-anchor="middle" letter-spacing="1.5">MARKBUZZ &amp; SOCIAL MEDIA</text>
+  <text x="350" y="310" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#D4FF32" text-anchor="middle" letter-spacing="2">IILM UNIVERSITY MARKETING CLUB</text>
+  <text x="350" y="345" font-family="'Plus Jakarta Sans', monospace" font-size="11" fill="#8C90A0" text-anchor="middle">[ REPLACE WITH ACTUAL CLUB, EVENT OR CONTENT CREATIVE PHOTO ]</text>
+</svg>

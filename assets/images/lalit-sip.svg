@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lalitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1F24" />
+      <stop offset="100%" stop-color="#121316" />
+    </linearGradient>
+    <linearGradient id="coralGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5C47" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#121316" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#lalitGrad)" />
+  <rect width="800" height="500" fill="url(#coralGlow)" />
+  
+  <!-- Architectural Luxury Grid Lines -->
+  <g stroke="#2C2F36" stroke-width="1" opacity="0.6">
+    <line x1="40" y1="40" x2="760" y2="40" />
+    <line x1="40" y1="460" x2="760" y2="460" />
+    <line x1="40" y1="40" x2="40" y2="460" />
+    <line x1="760" y1="40" x2="760" y2="460" />
+    <line x1="280" y1="40" x2="280" y2="460" stroke-dasharray="2 4" />
+    <line x1="520" y1="40" x2="520" y2="460" stroke-dasharray="2 4" />
+  </g>
+
+  <!-- Luxury Hospitality Motif -->
+  <g transform="translate(400, 210)">
+    <circle cx="0" cy="0" r="90" fill="none" stroke="#3A3E47" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="70" fill="#17181C" stroke="#FF5C47" stroke-width="1.5" stroke-dasharray="5 3" />
+    <path d="M-30,-20 L0,-45 L30,-20 L30,25 L0,45 L-30,25 Z" fill="none" stroke="#D4FF32" stroke-width="2" />
+    <circle cx="0" cy="0" r="6" fill="#D4FF32" />
+  </g>
+
+  <!-- Title & Metadata -->
+  <text x="400" y="350" font-family="'Syne', 'Playfair Display', Georgia, serif" font-size="28" font-weight="700" fill="#F8F6F0" text-anchor="middle" letter-spacing="2">THE LaLiT NEW DELHI</text>
+  <text x="400" y="380" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="600" fill="#D4FF32" text-anchor="middle" letter-spacing="3">SUMMER INTERNSHIP PROGRAM (SIP)</text>
+  <text x="400" y="410" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" fill="#A4A8B2" text-anchor="middle">Banquet Sales Process &amp; High-Touch Client Handling Operations</text>
+</svg>

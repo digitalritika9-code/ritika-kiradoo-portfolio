@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1C20" />
+      <stop offset="50%" stop-color="#121316" />
+      <stop offset="100%" stop-color="#24272D" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5C47" />
+      <stop offset="100%" stop-color="#D4FF32" />
+    </linearGradient>
+    <pattern id="grain" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFFFFF" opacity="0.04" />
+      <circle cx="12" cy="8" r="0.8" fill="#FFFFFF" opacity="0.03" />
+      <circle cx="18" cy="16" r="1" fill="#FFFFFF" opacity="0.04" />
+      <circle cx="6" cy="14" r="0.7" fill="#FFFFFF" opacity="0.03" />
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="750" fill="url(#bgGrad)" />
+  <rect width="600" height="750" fill="url(#grain)" />
+  
+  <!-- Subtle Architectural Editorial Grids -->
+  <line x1="50" y1="50" x2="550" y2="50" stroke="#32353D" stroke-width="1" />
+  <line x1="50" y1="700" x2="550" y2="700" stroke="#32353D" stroke-width="1" />
+  <line x1="50" y1="50" x2="50" y2="700" stroke="#32353D" stroke-width="1" />
+  <line x1="550" y1="50" x2="550" y2="700" stroke="#32353D" stroke-width="1" />
+  
+  <!-- Center Editorial Graphic Frame -->
+  <rect x="90" y="90" width="420" height="570" fill="none" stroke="#2D3038" stroke-width="1" stroke-dasharray="4 4" />
+  
+  <!-- Geometric Portrait Silhouette Silhouette & Monogram -->
+  <circle cx="300" cy="300" r="120" fill="#20232A" stroke="#343842" stroke-width="1.5" />
+  <circle cx="300" cy="300" r="110" fill="none" stroke="url(#accentGrad)" stroke-width="2" opacity="0.4" />
+  
+  <!-- Stylized Monogram RK -->
+  <text x="300" y="325" font-family="'Syne', 'Playfair Display', Georgia, serif" font-size="76" font-weight="700" fill="#F8F6F0" text-anchor="middle" letter-spacing="4">RK</text>
+  
+  <!-- Editorial Badge Tags -->
+  <g transform="translate(140, 480)">
+    <rect x="0" y="0" width="320" height="38" rx="19" fill="#181A1F" stroke="#383D47" stroke-width="1" />
+    <circle cx="20" cy="19" r="5" fill="#D4FF32" />
+    <text x="35" y="24" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" fill="#F8F6F0" letter-spacing="1.5">RITIKA KIRADOO · STRATEGIST</text>
+  </g>
+  
+  <!-- Subtitle Tag -->
+  <text x="300" y="555" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="500" fill="#A4A8B2" text-anchor="middle" letter-spacing="1">MBA Candidate · IILM University Greater Noida</text>
+  <text x="300" y="585" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="400" fill="#6E727D" text-anchor="middle" letter-spacing="2">[ REPLACE WITH PERSONAL PORTRAIT ]</text>
+  
+  <!-- Bottom Corner Markers -->
+  <text x="70" y="725" font-family="'Plus Jakarta Sans', monospace" font-size="10" fill="#585B64">FIG. 01 / EDITORIAL PORTRAIT</text>
+  <text x="530" y="725" font-family="'Plus Jakarta Sans', monospace" font-size="10" fill="#585B64" text-anchor="end">2024–2026</text>
+</svg>
